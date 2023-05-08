@@ -14,5 +14,5 @@
   $username = array_rand($accounts);
   $password = $accounts[$username];
 
-  header("Location: http://serverswe1.tv:8080/live/$username/$password/" . $_GET["channel"] . ".ts");
+  header("Location: http://nxtplay.xyz:8080/live/$username/$password/" . $_GET["channel"] . ".ts");
 //end nxtplay.php
